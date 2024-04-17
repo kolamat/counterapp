@@ -20,7 +20,7 @@ h2 {
 }
 
 button {
-  border: none;
+  border: 3px solid rgb(126, 212, 255);
   padding-top: 10px;
   padding-bottom: 10px;
   color: white;
@@ -28,14 +28,22 @@ button {
   width: 200px;
   margin-bottom: 5px;
   border-radius: 5px;
+  cursor: pointer;
+  transition-property: all;
+  transition-timing-function: cubic-bezier(1, 0, 4, 1);
+  transition-duration: 150ms;
+}
+
+button:hover {
+  border-radius: 10px 15px 10px 15px;
 }
 
 #increment-btn {
-  background: darkred;
+  background: rgb(8, 86, 110);
 }
 
 #save-btn {
-  background: darkgreen;
+  background: rgb(0, 60, 255);
 }
 
 .wrapper {
