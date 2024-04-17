@@ -38,8 +38,6 @@ button {
 }
 
 .wrapper {
-  /* min-height: max-content;
-  min-width: min-content; */
   display: grid;
   justify-items: center;
   color: #fff;
