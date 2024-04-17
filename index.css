@@ -30,8 +30,7 @@ button {
   border-radius: 5px;
   cursor: pointer;
   transition-property: all;
-  transition-timing-function: cubic-bezier(1, 0, 4, 1);
-  transition-duration: 150ms;
+  transition-duration: 200ms;
 }
 
 button:hover {
