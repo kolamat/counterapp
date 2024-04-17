@@ -40,4 +40,6 @@ button {
 .wrapper {
   min-height: max-content;
   min-width: min-content;
+  display: flex;
+  text-align: center;
 }
